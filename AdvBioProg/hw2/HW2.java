@@ -55,24 +55,24 @@ public class HW2
 
 
         }
-        private static int runtest(int correctval){
-        Random random = new Random();
-
-        int num1 = random.nextInt(FULL_NAMES.length);
-        System.out.println("Give one letter code for amino acid:" + FULL_NAMES[num1]);
-        String aString = System.console().readLine().toUpperCase();
-        String aChar = "" + aString.charAt(0);
-
-        if(aChar.equals(SHORT_NAMES[num1]))
+        private static int runtest(int correctval)
         {
+                Random random = new Random();
+
+                int num1 = random.nextInt(FULL_NAMES.length);
+                System.out.println("Give one letter code for amino acid:" + FULL_NAMES[num1]);
+                String aString = System.console().readLine().toUpperCase();
+                String aChar = "" + aString.charAt(0);
+
+                if(aChar.equals(SHORT_NAMES[num1]))
+                {
                     correctval++;
                     System.out.println("Correct answer, Score : " + correctval + " ,Time passed:"  );
 
-        } else {
+                }
+                else {
                     System.out.println("Sorry incorrect");
+                }
+                return correctval;
         }
-         return correctval;
-        }
-
-
-        }
+}
