@@ -1,7 +1,7 @@
-The java code is a quiz that allows user to take the quiz in two mode by selecting  1 for time based and 2 for number of questions based
+The java code is a quiz that allows user to take the quiz in two mode by selecting  1 for time based and 2 for number of questions based.
 
 Mode 1) Time based : 
-The program takes the number of seconds users want to run the code and runs the codes for the time. It displays number of second remaining in the quiz while taking each quiz. 
+The program takes the number of seconds users want to run the code and runs the codes for the time. It displays number of second remaining in the quiz while user take each question. 
 
 Mode 2) Number of question based 
 The second mode is number of questions based and user can give how many questions do they want to answer in quiz. After every question the program tells how many questions are remining to answer.
