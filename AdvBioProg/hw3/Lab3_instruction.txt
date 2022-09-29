@@ -1,0 +1,21 @@
+Implement this method that returns a random sequence from an arbitrary alphabet
+
+public static String 
+generateRandomSequence(char[] alphabet, float[] weights, int length) 
+	throws Exception
+{
+…
+}
+
+You should be able to run the main method from here:
+
+https://github.com/afodor/metagenomicsTools/blob/master/src/classExamples/Assignment3_Stub.java
+
+Your method should:
+	check to see that alphabet and weights have the same length
+	check to see that length >= 0
+	check to see that the sum of weights is within round-off error of 1
+	Return a random string of characters sampled with replacement from alphabet[] 
+		with relative frequencies set by weights[]
+If your code fails any of the pre-conditions raise an error with throw new Exception(“error message”);
+	      
