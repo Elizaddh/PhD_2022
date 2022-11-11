@@ -46,7 +46,7 @@ public class finaltest5 extends JFrame {
 	public finaltest5() 
 	{  //Constructor
 		setLocationRelativeTo(null);
-		setSize(400,200);
+		setSize(600,200);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		getContentPane().setLayout(new BorderLayout());
