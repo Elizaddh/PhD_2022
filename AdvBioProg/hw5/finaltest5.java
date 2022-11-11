@@ -1,4 +1,4 @@
-package hw5final;
+package hw5;
 
 import java.util.Random;
 
