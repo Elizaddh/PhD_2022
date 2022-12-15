@@ -51,7 +51,7 @@ class myguiclassifier extends JFrame implements ActionListener{
     
 
   
-    MenuExample()
+    myguiclassifier()
     {
         setTitle("Machine learning classifier GUI");
         setLayout(new FlowLayout());
